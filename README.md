@@ -11,7 +11,7 @@ whether or not they mean anything. `rsi-audit` runs the checks that separate the
 model and no API key: from per-task scores, a development log, a repository, or a count of attempts.
 
 ```
-pip install rsi-audit
+pip install "git+https://github.com/Empyrean-Intelligence/rsi-audit"   # PyPI release coming
 rsi-audit ranking scores.csv --published published.csv
 rsi-audit visibility path/to/benchmark --tasks 'tasks/*' --grader 'tests/*' --visible 'environment/*'
 rsi-audit selection devlog.csv --graded graded_test --submitted harness_v2
