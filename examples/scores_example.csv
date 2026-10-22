@@ -1,0 +1,16 @@
+agent,task,score
+alpha,t1,1.60
+alpha,t2,1.10
+alpha,t3,1.45
+alpha,t4,1.20
+alpha,t5,1.90
+beta,t1,1.30
+beta,t2,1.40
+beta,t3,1.10
+beta,t4,1.50
+beta,t5,1.35
+gamma,t1,1.25
+gamma,t2,1.30
+gamma,t3,1.20
+gamma,t4,1.10
+gamma,t5,1.30

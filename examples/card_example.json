@@ -1,0 +1,15 @@
+{
+ "claim": "Example: an agent improves its own scaffold and raises a benchmark from 0.32 to 0.98",
+ "matched_control": {"answer": "no", "evidence": "no arm that repairs the starting harness without the self-improvement loop"},
+ "compute_matched": {"answer": "no", "evidence": ""},
+ "training_seeds": {"answer": "no", "evidence": "one run per configuration"},
+ "intervals": {"answer": "partial", "evidence": "interval on the final score, none on the gain"},
+ "held_out": {"answer": "no", "evidence": "final evaluation reuses the development tasks"},
+ "claims_attempted": {"answer": "yes", "evidence": "every development evaluation is in the released logs"},
+ "gate_covers_scored_regime": {"answer": "", "evidence": ""},
+ "cheats_scored_as_failures": {"answer": "partial", "evidence": "n-gram contamination check only"},
+ "grader_hidden": {"answer": "yes", "evidence": "rsi-audit visibility: NO LEAK FOUND"},
+ "ranking_resampled": {"answer": "no", "evidence": ""},
+ "precommitted": {"answer": "", "evidence": ""},
+ "harness_disclosed": {"answer": "yes", "evidence": "scaffold code released"}
+}
