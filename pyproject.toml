@@ -10,11 +10,17 @@ readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.9"
+authors = [{ name = "Empyrean Intelligence" }]
 dependencies = []
 classifiers = [
   "Programming Language :: Python :: 3",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Empyrean-Intelligence/rsi-audit"
+Source = "https://github.com/Empyrean-Intelligence/rsi-audit"
+Issues = "https://github.com/Empyrean-Intelligence/rsi-audit/issues"
 
 [project.scripts]
 rsi-audit = "rsi_audit.cli:main"
