@@ -1,5 +1,7 @@
 # rsi-audit
 
+[![PyPI](https://img.shields.io/pypi/v/rsi-audit)](https://pypi.org/project/rsi-audit/) [![Python](https://img.shields.io/pypi/pyversions/rsi-audit)](https://pypi.org/project/rsi-audit/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![Empyrean Intelligence](https://img.shields.io/badge/by-Empyrean%20Intelligence-111)](https://empyreanintelligence.com)
+
 **Check a self-improvement or agent-leaderboard claim from its public artefacts.**
 
 A self-improving system is only as good as its ability to tell a real improvement from a fooled check.
